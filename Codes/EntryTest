@@ -1,0 +1,46 @@
+#TESTS
+
+#matrix a :
+a : matrix([1,2,0],[4,3,-1])
+#matrix b :
+b : matrix([5,1],[2,3],[3,4])
+#mult(a,b) :
+mult(a,b)
+
+#matrix a :
+a : matrix([2,4],[1,1])
+#expo(a,3) :
+expo(a, 3)
+#transpose(a) :
+transpose(a)
+
+#matrix m :
+m : matrix([1,2,-3],[4,3,-1],[0,1,2])
+#determinant(m) :
+determinant(m)
+#invert(m) :
+invert(m)
+
+#matrix A : 
+A : matrix([3,5,7],[2,10,6],[1,2,3])
+#matrix B :
+B : matrix([101],[134],[40])
+#A.x = B :
+solve(A,B)
+
+#matrix M :
+M : matrix([1,0,2,3],[2,0,4,6],[0,2,2,0],[1,2,4,3])
+#rank(m) :
+rank(M)
+
+#matrix C :
+C : matrix([11,-18],[6,-10])
+#eigen_values(C) :
+v : eigen_values(C)
+
+#matrix Obs :
+Obs : matrix([1,2],[2,2],[3,3],[4,2],[5,4])
+#least squares estimation :
+least_estimate(Obs)
+
+quit
